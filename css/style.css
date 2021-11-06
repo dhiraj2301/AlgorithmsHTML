@@ -1,0 +1,18 @@
+.straight_line{
+  border: 1px solid;
+  width: 100px;
+  display: inline-block;
+  font-size: 20px;
+  background-color: #ccffcc;
+  text-align:center;
+  padding: 50px 0;
+}
+
+.straight_line_header{
+  background-color: green;
+  color: white;
+}
+
+.row{
+  padding-bottom:4px;
+}

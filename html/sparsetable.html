@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+		<div class='row'>
+			<div class = 'straight_line straight_line_header'>INDEX</div>
+	        <div class = 'straight_line straight_line_header'>0</div>
+			<div class = 'straight_line straight_line_header'>1</div>
+			<div class = 'straight_line straight_line_header'>2</div>
+			<div class = 'straight_line straight_line_header'>3</div>
+	        <div class = 'straight_line straight_line_header'>4</div>
+	        <div class = 'straight_line straight_line_header'>5</div>
+			<div class = 'straight_line straight_line_header'>6</div>
+			<div class = 'straight_line straight_line_header'>7</div>
+		</div>
+		<div class='row'>
+	        <div class = 'straight_line straight_line_header'>Range 1</div>
+            <div onmouseover="expand(this, 0)" onmouseout="contract(this)" id = '0_0' class = 'straight_line'></div>
+			<div onmouseover="expand(this, 0)" onmouseout="contract(this)" id = '0_1' class = 'straight_line'></div>
+			<div onmouseover="expand(this, 0)" onmouseout="contract(this)" id = '0_2' class = 'straight_line'></div>
+			<div onmouseover="expand(this, 0)" onmouseout="contract(this)" id = '0_3' class = 'straight_line'></div>
+			<div onmouseover="expand(this, 0)" onmouseout="contract(this)" id = '0_4' class = 'straight_line'></div>
+			<div onmouseover="expand(this, 0)" onmouseout="contract(this)" id = '0_5' class = 'straight_line'></div>
+			<div onmouseover="expand(this, 0)" onmouseout="contract(this)" id = '0_6' class = 'straight_line'></div>
+			<div onmouseover="expand(this, 0)" onmouseout="contract(this)" id = '0_7' class = 'straight_line'></div>
+		</div>
+  		<div class='row'>
+	        <div class = 'straight_line straight_line_header'>Range 2</div>
+			<div onmouseover="expand(this, 1)" onmouseout="contract(this)" id = '1_0' class = 'straight_line'></div>
+			<div onmouseover="expand(this, 1)" onmouseout="contract(this)" id = '1_1' class = 'straight_line'></div>
+			<div onmouseover="expand(this, 1)" onmouseout="contract(this)" id = '1_2' class = 'straight_line'></div>
+			<div onmouseover="expand(this, 1)" onmouseout="contract(this)" id = '1_3' class = 'straight_line'></div>
+			<div onmouseover="expand(this, 1)" onmouseout="contract(this)" id = '1_4' class = 'straight_line'></div>
+			<div onmouseover="expand(this, 1)" onmouseout="contract(this)" id = '1_5' class = 'straight_line'></div>
+			<div onmouseover="expand(this, 1)" onmouseout="contract(this)" id = '1_6' class = 'straight_line'></div>
+  		</div>
+  		<div class='row'>
+	        <div class = 'straight_line straight_line_header'>Range 4</div>
+            <div onmouseover="expand(this, 2)" onmouseout="contract(this)" id = '2_0' class = 'straight_line'></div>
+            <div onmouseover="expand(this, 2)" onmouseout="contract(this)" id = '2_1' class = 'straight_line'></div>
+            <div onmouseover="expand(this, 2)" onmouseout="contract(this)" id = '2_2' class = 'straight_line'></div>
+            <div onmouseover="expand(this, 2)" onmouseout="contract(this)" id = '2_3' class = 'straight_line'></div>
+            <div onmouseover="expand(this, 2)" onmouseout="contract(this)" id = '2_4' class = 'straight_line'></div>
+  		</div>
+  		<div class='row'>
+	        <div class = 'straight_line straight_line_header'>Range 8</div>
+            <div onmouseover="expand(this, 3)" onmouseout="contract(this)" id = '3_0' class = 'straight_line'></div>
+  		</div>
+
+
+
+
+		<input type="number" id='left'><br>
+		<input type="number" id='right'><br>
+		<button onclick = 'summation()'>Sum</button><br>
+
+
+
+
+		<div id="ans"></div>
+
+
+		<script src="../js/sparsetable.js"></script>
+	</body>
+</html>
