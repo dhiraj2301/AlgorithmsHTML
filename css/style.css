@@ -1,18 +1,40 @@
-.straight_line{
+.straight_line {
   border: 1px solid;
   width: 100px;
   display: inline-block;
   font-size: 20px;
   background-color: #ccffcc;
-  text-align:center;
+  text-align: center;
   padding: 50px 0;
 }
 
-.straight_line_header{
+.straight_line_header {
   background-color: green;
   color: white;
 }
 
-.row{
-  padding-bottom:4px;
+.row {
+  padding-bottom: 4px;
+}
+
+/* Button */
+button {
+  padding: 20px 50px;
+  background-color: #7866c5;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 25px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #7866c5;
+}
+
+/* Input Field */
+input {
+  padding: 20px 50px;
+  font-size: 20px;
 }
