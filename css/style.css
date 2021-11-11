@@ -9,7 +9,7 @@
 }
 
 .straight_line_header {
-  background-color: green;
+  background-color: #0c3316;
   color: white;
 }
 
@@ -37,4 +37,11 @@ button:hover {
 input {
   padding: 20px 50px;
   font-size: 20px;
+}
+
+/* A */
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
